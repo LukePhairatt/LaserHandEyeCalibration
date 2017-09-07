@@ -1,4 +1,4 @@
-## **Line Laser Hand-Eye Calibration**  
+## **Line Laser Scanner Hand-Eye Calibration**  
 
 [//]: # (Image References)
 [image0]: ./images/frame.png "frame"
@@ -21,9 +21,9 @@ The calibration has been done on the known size block similar to the one below.
 
 
 
-The process is to capture the XYZ coordinate of the object points at multiple robot poses (6DoF) and the XYZ coordinates at the camera/measurement frame.  
+The process is to capture the XYZ coordinate of the object points at multiple robot poses (6DoF) with the XYZ coordinates at the camera/measurement frame.  
 ![calib][image1]
 
 
-See main_uEpsCalib.m for details. It is quite straight forward to follow I hope. 
+See _main_uEpsCalib.m_ for details. It is quite straight forward to follow I hope. 
 
