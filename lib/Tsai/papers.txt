@@ -1,0 +1,47 @@
+
+
+EF Fitcher: A Stewart Platform-Based Manipulator: General Theory and Practical
+Construction. The International Journal of Robotic Research, Vol 5 No 2, Summer
+1986, 157-182
+- use screws  (positions and moments)
+- regular hexagons for both base and platform gives different equations
+- friction can be minimized in a screw drive by using ball-screw, and the
+backlash can be eliminated by using double nuts preloaded by spring washers
+- legs should be mounted on gimbals (Hooke joints)=> greater motion range than
+ball-and-socket joint
+- singular position: rotation about y-axis until platform gets into the same
+plane as its support triangle
+- singular position: rotation about z-axis by 90 deg.
+
+
+CC Nguyen, SS Antrazi, Z-L Zhou, CE Campbell Jr: Adaptive Control of a Stewart
+Platform-Based Manipulator. Journal of Robotic Systems 10(5), 657-687 (1993)
+
+J-P Merlet: Parallel Manipulators: State of the Art and Perspectives. 
+http://www.inria.fr/prisme/personnel/merlet/Etat/etat_de_lart.html
+
+PR McAcree, RW Daniel: A Fast, Robust Solution to the Stewart Platform Forward
+Kinematics.  Journal of Robotic Systems 13(7), 407-427 (1996)
+
+[ROB93] Robot control : dynamics, motion planning, and analysis. Edited by Mark
+W. Spong, F.L. Lewis, C.T. Abdallah, IEEE Press 1993
+
+[Arimo93] Learning Control. S Arimoto, [ROB93]
+
+[CVRMed95] First International Conference, CVRMed'95 - Proceedings. Edited by
+Nicholas Ayache, Springer-Verlag 1995
+
+[Uenoh95] M Uenohara, T Kanade: Vision-Based Object Registration for Real-Time
+Image Overlay, [CVRMed95] 13-22
+- feature tracking using 5 points
+
+[Peria95] O Peria, L Chavalier, A Francois-Joubert, J-P Caravel, S Dalsoglio, S
+Lavallee, P Cinquin: Using a 3D Position Sensor for Registration of SPECT and
+US Images of the Kidney [CVRMed95]
+- 3D motion measurement sensor OPTOTRAK, Northern Digital Inc
+- calibration using 3 points
+
+[Schen95] PS Schenker, H Das, TR Ohm: A New Robot for High Dexterity
+Microsurgery [CVRMed95] 
+- 6-dof manipulator for Robot Assisted Micro-Surgery (RAMS)
+- dimensions: diameter 12cm, height 17.75cm, weight 5.5lbs
